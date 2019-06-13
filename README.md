@@ -1,7 +1,5 @@
 
 # smartathome
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url]  [![Build status][appveyor-image]][appveyor-url] [![Dependency status][david-dm-image]][david-dm-url]  
-
 **These are all proof of concepts. I am sure some developments can be done better. Please raise an issue for questions, suggestions ore any comments.**
 
 # Introduction
