@@ -7,7 +7,7 @@ Stay tuned!
 <br />
 Example to switch any device connected to Node-Red with a KNX Sesnor like the MDT Glastaster 2
 Node-Red Flow: 
-https://github.com/jensfr1/smartathome/blob/master/knx_externalswitch.json
+https://github.com/jensfr1/smartathome/blob/master/knx_externalswitch.js
 
 
 
