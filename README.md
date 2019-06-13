@@ -37,5 +37,5 @@ soon
 ## Openhab Examples
 ### Setup Google Home (Nest Home Hub) Integration for KNX Devices
 
-<img src="img/ghome1.jpg" height="120" width="468">
+<img src="img/ghome1.jpg" height="300" width="468">
 
