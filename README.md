@@ -1,6 +1,10 @@
-**These are all proof of concepts. I am sure some developments can be done better. Please raise an issue for questions, suggestions ore any comments.**
 
 # smartathome
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url]  [![Build status][appveyor-image]][appveyor-url] [![Dependency status][david-dm-image]][david-dm-url]  
+
+**These are all proof of concepts. I am sure some developments can be done better. Please raise an issue for questions, suggestions ore any comments.**
+
+# Introduction
 Actually I wanted to create a blog, but I dont have time right now. I might migrate that stuff later and even create a video.<br />
 On smartathome I will collect my ideas around **KNX** and integration with other smarthome solutions like iobroker, openhab and especially Node-Red. I will show you how to potentially save a lot of money using opensource technologys. I am not a coder, i am a consultant, so please be patient. <br/> For now I will not show the setup in ETS. 
 Stay tuned!
