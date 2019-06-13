@@ -1,9 +1,14 @@
 # smartathome
 Actually I wanted to create a blog, but I dont have time.<br />
 On smartathome I will collect my ideas around KNX and integration with other smarthome solutions like iobroker, openhab and especially Node-Red. I will show you how to potentially save a lot of money using opensource technologys. I am not a coder, i am a consultant, so please be patient. <br/>
-Stay tuned!
+## Stay tuned!
 <br />
-<br />
+## You need...
+* Raspberry Pi or any other device. 
+* Node-Red
+* Openhab
+* iobroker
+....
 <br />
 Example to switch any device connected to Node-Red with a KNX Sesnor like the MDT Glastaster 2
 Node-Red Flow: <br />
