@@ -1,8 +1,8 @@
 # smartathome
 Actually I wanted to create a blog, but I dont have time.<br />
 On smartathome I will collect my ideas around KNX and integration with other smarthome solutions like iobroker, openhab and especially Node-Red. I will show you how to potentially save a lot of money using opensource technologys. I am not a coder, i am a consultant, so please be patient. <br/>
-## Stay tuned!
-<br />
+Stay tuned!
+
 ## You need...
 * Raspberry Pi or any other device. 
 * Node-Red
