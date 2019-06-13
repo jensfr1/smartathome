@@ -5,9 +5,9 @@ Stay tuned!
 
 ## You need...
 * Raspberry Pi or any other device. 
-* Node-Red
-* Openhab
-* iobroker
+* Node-Red and some nodes for KNX and Alexa
+* Openhab is the easy way to integrate Google Home
+* iobroker as the connector and powerfull engine in between
 
 
 ### KNX to AnyDevice
