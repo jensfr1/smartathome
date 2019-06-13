@@ -9,7 +9,7 @@ Stay tuned!
 * Openhab is the easy way to integrate Google Home
 * iobroker as the connector and powerfull engine in between
 
-
+## Node-Red Flows
 ### KNX to AnyDevice
 Example to switch any device connected to Node-Red with a KNX Sesnor like the MDT Glastaster 2
 Node-Red Flow: <br />
@@ -25,8 +25,7 @@ https://github.com/jensfr1/smartathome/blob/master/mi_knx.js
 Example flow to switch any KNX device with Alexa.<br />
 https://github.com/jensfr1/smartathome/blob/master/mi_knx.js
 
+## Openhab Examples
+### Setup Google Integration for KNX Devices
 
-<br />
-<br />
-<br />
 These are all proof of concepts. I am sure some developments can be done better. Please raise an issue for questions, suggestions ore any comments. 
