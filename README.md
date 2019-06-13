@@ -14,24 +14,24 @@ Stay tuned!
 
 ## Node-Red Flows
 ### KNX to AnyDevice
-*Example to switch any device connected to Node-Red with a KNX Sesnor like the MDT Glastaster 2. In thise proof of concept I am switch a Sheely device with the MDT Glastaster. <br />
+* Example to switch any device connected to Node-Red with a KNX Sesnor like the MDT Glastaster 2. In thise proof of concept I am switch a Sheely device with the MDT Glastaster. <br />
 Node-Red Flow: <br />
 https://github.com/jensfr1/smartathome/blob/master/knx_externalswitch.js
 
 ### AnyDevice to KNX
-*Example on how to switch a KNX actor with any Device which can be connected to Node-Red. This examples shows a Xiomi Mi switch to control an KNX Actor. <br /> Node-Red Flow: <br />
+* Example on how to switch a KNX actor with any Device which can be connected to Node-Red. This examples shows a Xiomi Mi switch to control an KNX Actor. <br /> Node-Red Flow: <br />
 https://github.com/jensfr1/smartathome/blob/master/mi_knx.js
 
 ### Alexa and KNX
-*Example flow to switch any KNX device with Alexa.<br />Node-Red Flow: <br />
+* Example flow to switch any KNX device with Alexa.<br />Node-Red Flow: <br />
 https://github.com/jensfr1/smartathome/blob/master/mi_knx.js
 
 ### Send weather data from InfluxDB to KNX 
-*PM 2.5 and PM10 data from luftdaten.info will be shown on MDT Glastaster <br />
+* PM 2.5 and PM10 data from luftdaten.info will be shown on MDT Glastaster <br />
 soon
 
 ### Send data from Netatmo Public API to KNX
-*Get rain and wind information from nearby weather stations into KNX. <br />
+* Get rain and wind information from nearby weather stations into KNX. <br />
 soon
 
 ## Openhab Examples
