@@ -17,14 +17,18 @@ Stay tuned!
 * Example to switch any device connected to Node-Red with a KNX Sesnor like the MDT Glastaster 2. In thise proof of concept I am switch a Sheely device with the MDT Glastaster. <br />
 Node-Red Flow: <br />
 https://github.com/jensfr1/smartathome/blob/master/knx_externalswitch.js
+![Example](img/mdt_shelly.png)
+
 
 ### AnyDevice to KNX
 * Example on how to switch a KNX actor with any Device which can be connected to Node-Red. This examples shows a Xiomi Mi switch to control an KNX Actor. <br /> Node-Red Flow: <br />
 https://github.com/jensfr1/smartathome/blob/master/mi_knx.js
+![Example](img/miswitch_knx.png)
 
 ### Alexa and KNX
 * Example flow to switch any KNX device with Alexa.<br />Node-Red Flow: <br />
 https://github.com/jensfr1/smartathome/blob/master/alexa_knx.js
+![Example](img/alexa_knx.png)
 
 ### Send weather data from InfluxDB to KNX 
 * PM 2.5 and PM10 data from luftdaten.info will be shown on MDT Glastaster <br />
