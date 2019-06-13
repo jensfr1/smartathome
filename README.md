@@ -17,7 +17,8 @@ Example on how to switch a KNX actor with any Device which can be connected to N
 https://github.com/jensfr1/smartathome/blob/master/mi_knx.js
 
 
-
+Example flow to switch any KNX device with Alexa.
+https://github.com/jensfr1/smartathome/blob/master/mi_knx.js
 
 
 <br />
