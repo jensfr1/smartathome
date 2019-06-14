@@ -32,6 +32,9 @@ https://github.com/jensfr1/smartathome/blob/master/mi_knx.js
 https://github.com/jensfr1/smartathome/blob/master/alexa_knx.js
 ![Example](img/alexa_knx.png)
 
+### Homekit and KNX
+Soon
+
 ### Send weather data from InfluxDB to KNX 
 * PM 2.5 and PM10 data from luftdaten.info will be shown on MDT Glastaster <br />
 soon
