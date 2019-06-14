@@ -12,7 +12,7 @@ Stay tuned!
 * Node-Red and some nodes for KNX and Alexa (KNX Easy and Alexa Local)
 * Openhab is the easy way to integrate Google Home
 * iobroker as the connector and powerfull engine in between
-* ETS5 to configure KNX group addresses
+* ETS5 to configure KNX group addresses. With that it wont work! 
 
 ## Node-Red Flows
 ### KNX to AnyDevice
