@@ -33,7 +33,8 @@ https://github.com/jensfr1/smartathome/blob/master/alexa_knx.js
 ![Example](img/alexa_knx.png)
 
 ### Homekit and KNX
-Soon
+* Example flow to switch any KNX device with Siri / Homekit.<br />Node-Red Flow: <br />
+https://github.com/jensfr1/smartathome/blob/master/homekit_knx
 
 ### Send weather data from InfluxDB to KNX 
 * PM 2.5 and PM10 data from luftdaten.info will be shown on MDT Glastaster <br />
