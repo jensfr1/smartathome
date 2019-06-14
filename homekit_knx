@@ -1,0 +1,65 @@
+[
+    {
+        "id": "9ffa6c83.d9c7e",
+        "type": "homekit-service",
+        "z": "712fca3d.852e64",
+        "accessory": "e6410696.152b38",
+        "name": "Licht",
+        "serviceName": "Lightbulb",
+        "x": 170,
+        "y": 520,
+        "wires": [
+            [
+                "841e8b28.1711b8"
+            ]
+        ]
+    },
+    {
+        "id": "841e8b28.1711b8",
+        "type": "function",
+        "z": "712fca3d.852e64",
+        "name": "",
+        "func": "\nreturn { payload: msg.payload.On };",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 340,
+        "y": 520,
+        "wires": [
+            [
+                "e397b90.b8fda48"
+            ]
+        ]
+    },
+    {
+        "id": "e397b90.b8fda48",
+        "type": "knxEasy-out",
+        "z": "712fca3d.852e64",
+        "server": "694306d4.2fb7f8",
+        "topic": "1/0/0",
+        "dpt": "1.001",
+        "name": "",
+        "outputtype": "write",
+        "x": 550,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "e6410696.152b38",
+        "type": "homekit-accessory",
+        "z": "",
+        "accessoryName": "KNX",
+        "pinCode": "111-11-111",
+        "port": "",
+        "manufacturer": "Default Manufacturer",
+        "model": "Default Model",
+        "serialNo": "Default Serial Number",
+        "accessoryType": "5"
+    },
+    {
+        "id": "694306d4.2fb7f8",
+        "type": "knxEasy-config",
+        "z": "",
+        "host": "192.168.1.113",
+        "port": "3671"
+    }
+]
