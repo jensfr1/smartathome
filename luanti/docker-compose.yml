@@ -1,0 +1,21 @@
+# Luanti (ehemals Minetest) Server mit VoxeLibre
+# Start:  ./setup.sh   (einmalig, lädt VoxeLibre herunter)
+#         docker compose up -d
+services:
+  luanti:
+    # Version fest pinnen: Server und Clients sollten dieselbe Luanti-Version nutzen.
+    # Verfügbare Tags: https://hub.docker.com/r/linuxserver/luanti/tags
+    image: lscr.io/linuxserver/luanti:${LUANTI_VERSION:-5.18.0}
+    container_name: luanti
+    restart: unless-stopped
+    environment:
+      - PUID=${PUID:-1000}
+      - PGID=${PGID:-1000}
+      - TZ=${TZ:-Europe/Berlin}
+      # mineclone2 = technische Game-ID von VoxeLibre
+      - CLI_ARGS=--gameid mineclone2 --world /config/.minetest/worlds/${WORLD_NAME:-welt}
+    volumes:
+      - ./data:/config/.minetest
+    ports:
+      # Das Image lauscht intern fest auf 30000/udp. Externen Port über .env ändern.
+      - "${LUANTI_PORT:-30000}:30000/udp"
