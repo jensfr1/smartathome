@@ -45,6 +45,9 @@ soon
 * Get rain and wind information from nearby weather stations into KNX. <br />
 soon
 
+## Luanti + VoxeLibre Game-Server (Docker)
+* Fertiges Docker-Compose-Setup für einen eigenen Luanti-Server mit VoxeLibre auf Debian: [luanti/](luanti/README.md)
+
 ## Openhab Examples
 ### Setup Google Home (Nest Home Hub) Integration for KNX Devices
 
